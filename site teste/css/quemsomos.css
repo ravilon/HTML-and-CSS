@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(23, 29, 29);
+    background-image: url(../media/backgif.gif); 
+    background-size: auto;
+}
+
+#cabecalho {
+    display: inline-flex;
+    height: 70px;
+    width: 100%;
+    background: #111111;
+    border-bottom: gray solid 1px;
+}
+
+#cabecalho>nav {
+    margin-left: 1%;
+    width: 85%;
+    display: inline-flex;
+}
+
+#cabecalho>nav>a {
+    display: flex;
+    flex-direction: column;
+    padding: 1.6rem 1.2rem;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 1.0rem;
+}
+
+#cabecalho>nav>a:hover {
+    color: red;
+    background-color: #383737;
+}
+
+
+#logo {
+    padding: 12px;
+    margin-left: 1%;
+}
+
+#facebook {
+    padding: 0.2rem;
+    height: 80%;
+    filter:invert(100%);
+}
+
+#twitter {
+    padding: 0.2rem;
+    height: 80%;
+    filter:invert(100%);
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(../media/backgif2.gif);
+    background-size: cover;
+    width: 100%;
+    background-color: rgb(23, 29, 29);
+}
+
+.horizontal>h1 {
+    height: 6.5%;
+    padding-top: 2.5%;
+    font-weight: bold;
+    width: 30%;
+    color: yellow;
+    font-size: clamp(1.2rem,calc(1rem + 3.5vw),4rem);
+    text-shadow: 0 2px 2px rgb(0 0 0 / 50%);
+    text-align: center;
+    border-bottom: gray solid 1px;
+}
+
+.autores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 35%;
+    margin-left: 1%;
+    margin-right: 1%;
+    color: white
+}
+
+.autores>img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.nome {
+    color: yellow;
+    font-weight: bold;
+    padding-top: 2%;
+    font-size: 2.3rem;
+}
+
+.autores>p {
+    text-align: center;
+    font-size: 1.3rem;
+    padding-top: 2%;
+    width: 80%;
+}
+
+.email {
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 2%;
+    width: 80%;
+}
